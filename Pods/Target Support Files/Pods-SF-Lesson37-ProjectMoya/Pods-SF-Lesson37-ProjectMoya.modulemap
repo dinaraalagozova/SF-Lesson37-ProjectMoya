@@ -1,0 +1,6 @@
+framework module Pods_SF_Lesson37_ProjectMoya {
+  umbrella header "Pods-SF-Lesson37-ProjectMoya-umbrella.h"
+
+  export *
+  module * { export * }
+}

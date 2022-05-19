@@ -7,23 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		827AEB0693FC92A4C8EDBFA4 /* Pods_SF_Lesson37_ProjectMoya.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F176614B75BB49A9FB2D410E /* Pods_SF_Lesson37_ProjectMoya.framework */; };
 		C11B1ACD2824F21900698D60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11B1ACC2824F21900698D60 /* AppDelegate.swift */; };
 		C11B1ACF2824F21900698D60 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11B1ACE2824F21900698D60 /* SceneDelegate.swift */; };
-		C11B1AD12824F21900698D60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11B1AD02824F21900698D60 /* ViewController.swift */; };
 		C11B1AD42824F21900698D60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C11B1AD22824F21900698D60 /* Main.storyboard */; };
 		C11B1AD62824F21D00698D60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C11B1AD52824F21D00698D60 /* Assets.xcassets */; };
 		C11B1AD92824F21D00698D60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C11B1AD72824F21D00698D60 /* LaunchScreen.storyboard */; };
+		C11B1AE62824F57A00698D60 /* CodableResponses.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11B1AE52824F57A00698D60 /* CodableResponses.swift */; };
+		C11B1AE82824F5A900698D60 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11B1AE72824F5A900698D60 /* News.swift */; };
+		C11B1AEB2824F5CC00698D60 /* NewsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11B1AEA2824F5CC00698D60 /* NewsCell.swift */; };
+		C11B1AED2824F60D00698D60 /* NewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11B1AEC2824F60D00698D60 /* NewsViewController.swift */; };
+		C11B1AEF2824F64D00698D60 /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11B1AEE2824F64D00698D60 /* NewsFeedViewController.swift */; };
+		C11B1AF1282512E900698D60 /* NewsFeed.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11B1AF0282512E900698D60 /* NewsFeed.swift */; };
+		C11B1AF42825259D00698D60 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = C11B1AF32825259D00698D60 /* Kingfisher */; };
+		C11B1B162825614D00698D60 /* UploadResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = C11B1B152825614D00698D60 /* UploadResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7853E811D674580D4A87F223 /* Pods-SF-Lesson37-ProjectMoya.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SF-Lesson37-ProjectMoya.debug.xcconfig"; path = "Target Support Files/Pods-SF-Lesson37-ProjectMoya/Pods-SF-Lesson37-ProjectMoya.debug.xcconfig"; sourceTree = "<group>"; };
 		C11B1AC92824F21900698D60 /* SF-Lesson37-ProjectMoya.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SF-Lesson37-ProjectMoya.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C11B1ACC2824F21900698D60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C11B1ACE2824F21900698D60 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C11B1AD02824F21900698D60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C11B1AD32824F21900698D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C11B1AD52824F21D00698D60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C11B1AD82824F21D00698D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C11B1ADA2824F21D00698D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C11B1AE52824F57A00698D60 /* CodableResponses.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodableResponses.swift; sourceTree = "<group>"; };
+		C11B1AE72824F5A900698D60 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		C11B1AEA2824F5CC00698D60 /* NewsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsCell.swift; sourceTree = "<group>"; };
+		C11B1AEC2824F60D00698D60 /* NewsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewController.swift; sourceTree = "<group>"; };
+		C11B1AEE2824F64D00698D60 /* NewsFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedViewController.swift; sourceTree = "<group>"; };
+		C11B1AF0282512E900698D60 /* NewsFeed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeed.swift; sourceTree = "<group>"; };
+		C11B1B152825614D00698D60 /* UploadResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UploadResult.swift; sourceTree = "<group>"; };
+		C59DC85ECC32F82204022EF7 /* Pods-SF-Lesson37-ProjectMoya.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SF-Lesson37-ProjectMoya.release.xcconfig"; path = "Target Support Files/Pods-SF-Lesson37-ProjectMoya/Pods-SF-Lesson37-ProjectMoya.release.xcconfig"; sourceTree = "<group>"; };
+		F176614B75BB49A9FB2D410E /* Pods_SF_Lesson37_ProjectMoya.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SF_Lesson37_ProjectMoya.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +48,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C11B1AF42825259D00698D60 /* Kingfisher in Frameworks */,
+				827AEB0693FC92A4C8EDBFA4 /* Pods_SF_Lesson37_ProjectMoya.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		25E5677DBC08A2B8707BD3E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F176614B75BB49A9FB2D410E /* Pods_SF_Lesson37_ProjectMoya.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DCD46DA3E176BBF3BD13F04 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7853E811D674580D4A87F223 /* Pods-SF-Lesson37-ProjectMoya.debug.xcconfig */,
+				C59DC85ECC32F82204022EF7 /* Pods-SF-Lesson37-ProjectMoya.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C11B1AC02824F21900698D60 = {
 			isa = PBXGroup;
 			children = (
 				C11B1ACB2824F21900698D60 /* SF-Lesson37-ProjectMoya */,
 				C11B1ACA2824F21900698D60 /* Products */,
+				3DCD46DA3E176BBF3BD13F04 /* Pods */,
+				25E5677DBC08A2B8707BD3E4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +94,71 @@
 		C11B1ACB2824F21900698D60 /* SF-Lesson37-ProjectMoya */ = {
 			isa = PBXGroup;
 			children = (
-				C11B1ACC2824F21900698D60 /* AppDelegate.swift */,
-				C11B1ACE2824F21900698D60 /* SceneDelegate.swift */,
-				C11B1AD02824F21900698D60 /* ViewController.swift */,
-				C11B1AD22824F21900698D60 /* Main.storyboard */,
-				C11B1AD52824F21D00698D60 /* Assets.xcassets */,
-				C11B1AD72824F21D00698D60 /* LaunchScreen.storyboard */,
 				C11B1ADA2824F21D00698D60 /* Info.plist */,
+				C11B1AE12824F4D800698D60 /* Common */,
+				C11B1AE42824F54E00698D60 /* Helpers */,
+				C11B1AE32824F50F00698D60 /* Network */,
+				C11B1AE22824F4FB00698D60 /* Models */,
+				C11B1AE02824F4C600698D60 /* Views */,
 			);
 			path = "SF-Lesson37-ProjectMoya";
+			sourceTree = "<group>";
+		};
+		C11B1AE02824F4C600698D60 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C11B1AE92824F5BB00698D60 /* Cells */,
+				C11B1AEE2824F64D00698D60 /* NewsFeedViewController.swift */,
+				C11B1AEC2824F60D00698D60 /* NewsViewController.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C11B1AE12824F4D800698D60 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				C11B1AD52824F21D00698D60 /* Assets.xcassets */,
+				C11B1ACC2824F21900698D60 /* AppDelegate.swift */,
+				C11B1ACE2824F21900698D60 /* SceneDelegate.swift */,
+				C11B1AD22824F21900698D60 /* Main.storyboard */,
+				C11B1AD72824F21D00698D60 /* LaunchScreen.storyboard */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C11B1AE22824F4FB00698D60 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C11B1AE72824F5A900698D60 /* News.swift */,
+				C11B1B152825614D00698D60 /* UploadResult.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C11B1AE32824F50F00698D60 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				C11B1AE52824F57A00698D60 /* CodableResponses.swift */,
+				C11B1AF0282512E900698D60 /* NewsFeed.swift */,
+			);
+			name = Network;
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C11B1AE42824F54E00698D60 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Helpers;
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C11B1AE92824F5BB00698D60 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				C11B1AEA2824F5CC00698D60 /* NewsCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,15 +168,20 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C11B1ADD2824F21D00698D60 /* Build configuration list for PBXNativeTarget "SF-Lesson37-ProjectMoya" */;
 			buildPhases = (
+				F14C5B4B973BD778B8006BA2 /* [CP] Check Pods Manifest.lock */,
 				C11B1AC52824F21900698D60 /* Sources */,
 				C11B1AC62824F21900698D60 /* Frameworks */,
 				C11B1AC72824F21900698D60 /* Resources */,
+				1BF70438627365E52E41D563 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = "SF-Lesson37-ProjectMoya";
+			packageProductDependencies = (
+				C11B1AF32825259D00698D60 /* Kingfisher */,
+			);
 			productName = "SF-Lesson37-ProjectMoya";
 			productReference = C11B1AC92824F21900698D60 /* SF-Lesson37-ProjectMoya.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +210,9 @@
 				Base,
 			);
 			mainGroup = C11B1AC02824F21900698D60;
+			packageReferences = (
+				C11B1AF22825259D00698D60 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = C11B1ACA2824F21900698D60 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -133,14 +235,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1BF70438627365E52E41D563 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SF-Lesson37-ProjectMoya/Pods-SF-Lesson37-ProjectMoya-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SF-Lesson37-ProjectMoya/Pods-SF-Lesson37-ProjectMoya-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SF-Lesson37-ProjectMoya/Pods-SF-Lesson37-ProjectMoya-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F14C5B4B973BD778B8006BA2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SF-Lesson37-ProjectMoya-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C11B1AC52824F21900698D60 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C11B1AD12824F21900698D60 /* ViewController.swift in Sources */,
+				C11B1AE62824F57A00698D60 /* CodableResponses.swift in Sources */,
+				C11B1B162825614D00698D60 /* UploadResult.swift in Sources */,
 				C11B1ACD2824F21900698D60 /* AppDelegate.swift in Sources */,
+				C11B1AF1282512E900698D60 /* NewsFeed.swift in Sources */,
+				C11B1AE82824F5A900698D60 /* News.swift in Sources */,
+				C11B1AED2824F60D00698D60 /* NewsViewController.swift in Sources */,
+				C11B1AEB2824F5CC00698D60 /* NewsCell.swift in Sources */,
 				C11B1ACF2824F21900698D60 /* SceneDelegate.swift in Sources */,
+				C11B1AEF2824F64D00698D60 /* NewsFeedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +432,7 @@
 		};
 		C11B1ADE2824F21D00698D60 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7853E811D674580D4A87F223 /* Pods-SF-Lesson37-ProjectMoya.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +461,7 @@
 		};
 		C11B1ADF2824F21D00698D60 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C59DC85ECC32F82204022EF7 /* Pods-SF-Lesson37-ProjectMoya.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -358,6 +510,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		C11B1AF22825259D00698D60 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C11B1AF32825259D00698D60 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C11B1AF22825259D00698D60 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C11B1AC12824F21900698D60 /* Project object */;
 }
